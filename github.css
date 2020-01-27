@@ -662,3 +662,39 @@ body :checked+.radio-label {
   position: relative;
   border-color: #4078c0;
 }
+
+/* ALERTS similar to read the docs */
+/* Set common box properties */
+.info, .warn {
+    padding:2px 12px;
+    line-height:24px;
+    margin-bottom:24px;
+}
+
+/* Set individual colors */
+.info {
+    background:#e7f2fa 10px 50%;
+}
+.warn {
+    background:#ffedcc 10px 50%;
+}
+
+/* Set common title properties */
+.info p:first-child, .warn p:first-child {
+    color:#fff;
+    font-weight:bold;
+    display:block;
+    color:#fff;
+    margin:-12px;
+    padding:6px 12px;
+    margin-bottom:12px
+}
+
+/* Set individual colors */
+.info p:first-child {
+     background:#6ab0de;
+ }
+
+.warn p:first-child {
+     background:#f0b37e;
+ }
